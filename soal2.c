@@ -88,15 +88,19 @@ int detectCycle(struct Graph* graph)
 
 int main()
 {
-    struct Graph* graph = createGraph(4);
+    
     int missionNum, pasangan, a[MAX_VERTICES],b[MAX_VERTICES];
     scanf("%d %d", &missionNum,&pasangan);
+    struct Graph* graph = createGraph(missionNum);
 
     for (int i = 0; i < pasangan; i++)
-    {
-        scanf("%d %d", &a[i],&b[i]);
-        addEdge(graph, a[i], b[i]);
-    }
+        {
+            scanf("%d %d", &a[i],&b[i]);
+            addEdge(graph, a[i], b[i]);
+
+
+            
+        }
     
     
     if (detectCycle(graph)) {
