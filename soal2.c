@@ -1,3 +1,12 @@
+/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
+ *   Modul               : 5
+ *   Hari dan Tanggal    : Senin, 11 May 2026
+ *   Nama (NIM)          : Achmad Rayyan Hawari (13224110)
+ *   Nama File           : soal2.c
+ *   Deskripsi           : program untuk mencari cycle pada sebuah graph
+ * 
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
